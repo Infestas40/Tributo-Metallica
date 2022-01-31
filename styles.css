@@ -180,4 +180,22 @@ header{
                    background: #6cc09070; 
 }
 
+.grid-container{
+               display: grid;
+               background-color: white;
+               grid-template-columns: 530px 530px 530px;
+               height: 800px;
+
+}
+
+.grid-container div{
+                   background-color: white;
+                   text-align: center;
+                   color: black;
+                   border: 1px solid black;
+}
+
+
+
+
 
