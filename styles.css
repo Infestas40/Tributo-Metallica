@@ -10,9 +10,9 @@
 header{
       height: 100px;
       background: black;
-      background-image: url(./assets/Logo.png);
+      background-image: url(./assets/Imges/Logo.png);
       background-repeat: no-repeat;
-      background-position: 1200px;
+      background-position: 1100px;
       padding: 0 50px;
       color: #fff;
       justify-content: space-between;  
@@ -60,7 +60,7 @@ header{
 
 #banner{
        padding: 0 50px;
-       background-image: url(./assets/Metallica.jpg); 
+       background-image: url(./assets/Imges/Metallica.jpg); 
        height: 45vh;
        background-size: cover;
        background-position: center;
@@ -101,7 +101,7 @@ header{
 }
 
 .slider{
-      width: 1580px;
+      width: 1400px;
       height: 800px;
       margin: auto;
       overflow: hidden;
@@ -183,7 +183,7 @@ header{
 .grid-container{
                display: grid;
                background-color: white;
-               grid-template-columns: 530px 530px 530px;
+               grid-template-columns: 500px 500px 500px;
                height: 800px;
 
 }
@@ -193,6 +193,11 @@ header{
                    text-align: center;
                    color: black;
                    border: 1px solid black;
+}
+
+.grid-container img{
+                   width: 530px;
+                   height: 530px;
 }
 
 
