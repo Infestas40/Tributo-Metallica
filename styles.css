@@ -183,7 +183,7 @@ header{
 .grid-container{
                display: grid;
                background-color: white;
-               grid-template-columns: 500px 500px 500px;
+               grid-template-columns: 530px 530px 530px;
                height: 800px;
 
 }
@@ -200,6 +200,14 @@ header{
                    height: 530px;
 }
 
+.footer {
+       background-color: black;
+       width: 1440px;
+       height: 80px;
+       position: relative;
+       top: 266px;
+       color: white;
+}
 
 
 
