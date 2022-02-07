@@ -202,11 +202,28 @@ header{
 
 .footer {
        background-color: black;
-       width: 1440px;
-       height: 80px;
+       width: 1600px;
+       height: 40px;
        position: relative;
        top: 266px;
        color: white;
+}
+
+.footer h1{
+          font-size: 14px;
+          font-family: Roboto;
+          position: relative;
+          left: 50px;
+          padding: 10px;
+}
+
+.footer img{
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 1300px;
+            top: -70px;
+            margin: 40px;
 }
 
 

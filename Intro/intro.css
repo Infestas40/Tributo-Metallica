@@ -1,0 +1,19 @@
+
+img{
+    width:1600px;
+    position: relative;
+    left: -8px;
+}
+
+a{
+ position: relative;
+ left: 750px;
+ top: -200px;
+ text-decoration: none;
+ color: white;
+ font-size: 36px;
+}
+
+a:hover{
+       color: red
+}
