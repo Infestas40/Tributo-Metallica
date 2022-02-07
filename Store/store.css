@@ -1,124 +1,19 @@
-
-header{
-    height: 100px;
-    background: black;
-    padding: 0 50px;
-    color: #fff;
-    justify-content: space-between;  
-    align-items: center;
+.menu-store{
+           background-color: black; 
+           color: white;
+           text-decoration: none;
+           padding: 20px 70px;
+           display: block;
+           position: relative;
+           top: 82px;
+           width: 1442px;
+           left: -50px;
 }
 
-.logo {
-    text-transform: uppercase;  
-    color: #c4c4c4;
-    font-weight: 200;
-}
-
-.menu a{
-     color: #c4c4c4;
-     text-transform: uppercase;
-     text-decoration: none;
-     padding: 0 10px;
-     transition: 0.4s;
-}
-
-.show-menu, 
-.hide-menu{
-      font-size: 30px;
-      cursor: pointer;
-      display: none;
-      transition: 0.4s;
+.menu-store:hover{
+    color: red;
 
 }
-
-.show-menu{
-        order: 1;
-
-}
-
-.menu a:hover,
-.show-menu:hover,
-.hide-menu:hover{
-              color: red;
-}
-
-#check{
-    display: none;
-
-}
-
-#banner{
-     padding: 0 50px;
-     background-image: url(./assets/Imges/Metallica.jpg); 
-     height: 45vh;
-     background-size: cover;
-     background-position: center;
-     background-repeat: no-repeat;
-    
-}
-
-@media(max-width:768px){
-  .show-menu,
-  .hide-menu{
-          display: block;
-  }
-
-  .menu{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: #4d4d4c;
-      right: 100%;
-      top: 0;
-      text-align: center;
-      padding: 100 0px;
-      z-index: 100;
-      transition: 0.8s;
-  }
-  .menu a{
-         display: block;
-         padding: 20%; 
-  }
-  .hide-menu{
-            position: absolute;
-            top: 40px;
-            right: 40px;
-  }
-  #check:checked ~ .menu{
-                        right: 0;  
-  }
-}
-
-
-nav {
-    background-color: black; 
-    text-decoration: none;
-    padding: 10px 30px;
-    display: block;
-    height: 80px;
-    width: 1510px;
-    position: relative;
-    right: 50px;
-    
-}
-
-nav h1{
-    color: white;
-    font-size: 20px;
-}
-
-nav h1:hover{
-        color: red;
-}
-
-nav img{
-       position: relative;
-       left: 1100px;
-       top: -80px;
-       padding: 0 50px;
-       height: 100px;
-}
-
 
 .container{
     width: 1400px;  
@@ -135,7 +30,7 @@ nav img{
 
 .container .card{
           width: 330px;  
-          height: 500px;
+          height: 400px;
           border-radius: 8px;
           box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
           overflow: hidden;
@@ -177,7 +72,7 @@ nav img{
     width: 1600px;
     height: 50px;
     position: relative;
-    top: 1350px;
+    top: 1100px;
     color: white;
 }
 
@@ -195,7 +90,7 @@ nav img{
          height: 30px;
          position: relative;
          left: 1300px;
-         top: -75px;
+         top: -65px;
          margin: 40px;
 }
 
