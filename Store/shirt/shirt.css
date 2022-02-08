@@ -1,0 +1,90 @@
+.menu-store{
+    background-color: black; 
+    color: white;
+    text-decoration: none;
+    padding: 20px 70px;
+    display: block;
+    position: relative;
+    top: 82px;
+    width: 1442px;
+    left: -50px;
+}
+
+.menu-store:hover{
+color: red;
+
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 150px;
+    left: 580px;
+}
+
+.title-shirt{
+            background-color: black; 
+            color: white;
+            text-decoration: none;
+            padding: 20px 70px;
+            display: block;
+            position: relative;
+            top: 170px;
+            width: 1100px;
+            left: 160px; 
+}
+
+.title-shirt:hover{
+    color: red;
+    
+}
+
+.title-shirt h1{
+               font-size: 24px;
+               font-family: Roboto;
+               text-align: center;
+}
+
+.description{
+            color: black;
+            font-size: 24px;
+            font-family: Roboto;
+            text-align: center;
+            position: relative;
+            top: 300px;
+            left: 120px;
+}
+
+li{
+    color: black;
+    font-size: 24px;
+    font-family: Roboto;
+    text-align: center;
+    position: relative;
+    top: 360px;
+    left: 120px; 
+}
+
+.precio{
+    background-color: black; 
+    color: white;
+    text-decoration: none;
+    padding: 20px 70px;
+    display: block;
+    position: relative;
+    top: 500px;
+    width: 1100px;
+    left: 160px;
+}
+
+.precio:hover{
+    color: red;
+    
+}
+
+.precio h1{
+    font-size: 24px;
+    font-family: Roboto;
+    text-align: center;
+}
