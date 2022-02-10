@@ -53,7 +53,7 @@ img{
             text-align: center;
             position: relative;
             top: 300px;
-            left: 120px;
+            left: -5px;
 }
 
 li{
@@ -63,7 +63,7 @@ li{
     text-align: center;
     position: relative;
     top: 360px;
-    left: 120px; 
+    left: -10px; 
 }
 
 .precio{
