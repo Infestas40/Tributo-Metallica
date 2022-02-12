@@ -15,6 +15,27 @@
 
 }
 
+.cart{
+     position: relative;
+     top: -20px;
+     width: 800px;
+     left: -100px;
+     float: right;
+     text-align: center;  
+     border: 1px solid black; 
+     overflow-y: scroll;
+     height: 100%;
+}
+
+.cart img  {
+         width: 350px;
+}
+
+.cart button{
+            position: relative;
+            left: 50px;
+}
+
 .container{
     width: 1400px;  
     max-width: 1400px;
@@ -72,7 +93,7 @@
     width: 1600px;
     height: 50px;
     position: relative;
-    top: 1100px;
+    top: 1550px;
     color: white;
 }
 
