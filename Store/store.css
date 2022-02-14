@@ -15,25 +15,15 @@
 
 }
 
-.cart{
-     position: relative;
-     top: -20px;
-     width: 800px;
-     left: -100px;
-     float: right;
-     text-align: center;  
-     border: 1px solid black; 
-     overflow-y: scroll;
-     height: 100%;
-}
-
-.cart img  {
-         width: 350px;
-}
-
-.cart button{
-            position: relative;
-            left: 50px;
+#btn-buy {
+    background: black; 
+    color: red;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
 
 .container{
@@ -93,7 +83,7 @@
     width: 1600px;
     height: 50px;
     position: relative;
-    top: 1550px;
+    top: 1120px;
     color: white;
 }
 
